@@ -13,14 +13,8 @@
 
 Route::get('/', function()
 {
-	return 'HEllo Laravel';
+	return View::make('hello');
 });
 
-Route::get('/hello/{name?}', 'HelloController@showIndex');
+Route::get('/home', 'MyHomeController@home');
 
-Route::get('/form', 'HelloFormController@showForm');
-Route::post('/form', 'HelloFormController@postForm');
-Route::get('/blade', 'HelloFormController@showBlade');
-
-Route::get('/my/long/path/to/blade', array('uses' => 'HelloFormController@showBlade',
-  'as' => 'bladepath'));  
