@@ -26,7 +26,8 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+//	'url' => 'http://localhost',
+	'url' => 'http://app/task1/public',
 
 	/*
 	|--------------------------------------------------------------------------
