@@ -26,8 +26,9 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/apps/hello/public/index.php',
-//	'url' => 'http://localhost/',
+	'url' => 'http://192.168.0.15/~user7/tinyurl/public',
+//	'url' => 'http://localhost',
+//	'url' => 'http://app/task1/public',
 
 	/*
 	|--------------------------------------------------------------------------
