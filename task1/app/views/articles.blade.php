@@ -8,7 +8,7 @@
 
 
 @foreach($list as $val)
-    <a href="{{URL::to('article/'.$val)}}">Article #{{$val}}</a><br>
+    <a href="{{URL::to('article/'.$val)}}">Article -{{$val}}</a><br>
 @endforeach
 
 @stop

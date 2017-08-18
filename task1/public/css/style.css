@@ -1,0 +1,24 @@
+.head{
+    height: 120px;
+    display: block;
+    background: red;
+}
+.navi{
+    margin-left: 90px;
+}
+.content{
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: 1000px;
+    background: gainsboro;
+}
+
+.footer{
+    position: absolute;
+    top: 600px;
+    display: block;
+    background: gray;
+    height: 100px;
+    width: 1000px;
+}

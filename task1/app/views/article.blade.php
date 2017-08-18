@@ -6,6 +6,6 @@
 
 @section('article')
 
-<h4>Article - {{$num}}</h4>
+<h4>Article - {{$number}}</h4>
 
 @stop

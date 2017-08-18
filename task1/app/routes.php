@@ -22,6 +22,9 @@
  });
 
 Route::get('/articles', 'MyHomeController@articles');
-Route::get('/article/{num?}', 'MyHomeController@article');
+Route::get('/article/{number?}', 'MyHomeController@article');
 Route::get('/about', 'MyHomeController@about');
+Route::get('/contact', 'MyHomeController@getContact');
+Route::post('/contact', 'MyHomeController@postContact');
+Route::get('/thank/{name?}', 'MyHomeController@thank');
 
